@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-width: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+    background-color: rgb(122, 120, 120);
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 30px 0;
+}
+
+#header .logo {
+    padding-right: 20px;
+}
+
+
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#menu .item a h3 {
+    font-size: 20px;
+    color: rgb(51, 49, 49);
+    font-weight: 400;
+}
+
+#header .user {
+    gap: 20px;
+    display: flex;
+    padding-left: 20px;
+}
+
+#banner {
+    width: 100%;
+    height: 460px;
+    background-image: url(img/banner.png);
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+#banner .box-left,
+#banner .box-right {
+    width: 50%;
+}
+
+#banner .box-left h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#banner .box-left p {
+    color: rgb(162, 162, 163);
+}
+
+#banner .box-left button {
+    transition: 0.3s;
+    border: none;
+    color: white;
+    width: 160px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #1d1a1a;
+}
+
+#banner .box-left button:hover {
+    background-color: rgb(248, 153, 9);
+    transform: scale(1.1);
+}
+
+#banner .box-right {
+    gap: 10px;
+    display: flex;
+    /* justify-content: end; */
+    padding-left: 200px;
+    align-items: center;
+}
+
+#banner .to-button {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#banner .to-button button {
+    transition: 0.4s;
+    padding: 0;
+    border: none;
+    background: none;
+    display: inline-block;
+}
+
+#banner .to-button button:hover {
+    transform: scale(1.1);
+}
+
+#banner .to-button button img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#content {
+    margin-top: 70px;
+    padding: 0 100px;
+}
+
+#content .tieude {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#list-product .item {
+    border-radius: 20px;
+    width: 290px;
+    height: 375px;
+    background-color: rgb(130, 110, 83);
+    margin-bottom: 50px;
+    /* margin: auto; */
+}
+
+#list-product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#list-product .item .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#list-product .img img {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#list-product .item .star {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#list-product .name-product {
+    text-align: center;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#list-product .name-product p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#list-product .money {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#list-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#list-page .item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #4d4c4c;
+    color: white;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+#list-page .item:nth-child(1) {
+    background-color: black;
+    transform: scale(1.1)
+}
+
+#sell-off {
+    margin-top: 100px;
+    display: flex;
+}
+
+#sell-off .box-left,
+#sell-off .box-right {
+    width: 50%;
+    height: 332px;
+}
+
+#sell-off .box-left {
+
+    background-color: rgb(56, 13, 56);
+    text-align: center;
+}
+
+#sell-off .box-left h2 {
+    margin: 70px 0 40px 0;
+    font-size: 40px;
+    color: white;
+}
+
+#sell-off .box-left span {
+    color: coral;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#sell-off .box-right {
+    background-image: url(img/off.png);
+}
+
+#comment {
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 130px;
+}
+
+#list-comment {
+    width: 905px;
+    margin: 70px auto;
+    align-items: center;
+    display: flex;
+}
+
+#list-comment .content {
+
+    border-radius: 20px;
+    padding: 70px 50px;
+    /* width: 1000px; */
+    background-color: rgb(67, 22, 22);
+}
+
+#list-comment .content .star {
+    margin: 30px;
+    color: white;
+}
+
+#list-comment .content p {
+    text-align: left;
+    color: white;
+}
+
+#list-comment .next-comment button {
+    border: 0px;
+}
+
+#list-comment .next-comment img {
+    width: 100%;
+    background-color: rgb(122, 120, 120);
+    height: auto;
+    display: block;
+}
