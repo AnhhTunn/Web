@@ -291,3 +291,14 @@ a {
     height: auto;
     display: block;
 }
+
+#contact {
+    padding: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact .box
+{
+    width: 250px;
+}
